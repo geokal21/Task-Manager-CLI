@@ -1,57 +1,61 @@
 # 🧭 Task Manager CLI
 
-Ένα απλό αλλά χρήσιμο **CLI εργαλείο διαχείρισης εργασιών**, γραμμένο σε **Node.js**, που σου επιτρέπει να:
-- Προσθέτεις, εμφανίζεις, ολοκληρώνεις και διαγράφεις εργασίες  
-- Ομαδοποιείς εργασίες ανά **κατηγορία**
-- Αποθηκεύεις τις εργασίες τοπικά σε αρχείο `tasks.json`
+A simple but useful **CLI task management tool**, written in **Node.js**, that allows you to:
+- Add, view, complete, and delete tasks 
+- Group tasks by **category**
+- Save tasks locally in a `tasks.json` file
+---
+
+## ⚙️ Features
+
+✅ Add new tasks
+
+✅ Show all tasks 
+
+✅ Show jobs by category 
+
+✅ Mark as complete  
+
+✅ Delete tasks  
+
+✅ Colored output with **chalk** for easier reading  
 
 ---
 
-## ⚙️ Χαρακτηριστικά
-
-✅ Προσθήκη νέων εργασιών  
-✅ Εμφάνιση όλων των εργασιών  
-✅ Εμφάνιση εργασιών ανά κατηγορία  
-✅ Σημείωση ως ολοκληρωμένη  
-✅ Διαγραφή εργασιών  
-✅ Χρωματισμένη έξοδος με **chalk** για ευκολότερη ανάγνωση  
-
----
-
-## 📦 Τεχνολογίες
+## 📦 Technologies
 
 - [Node.js](https://nodejs.org/)
 - [Inquirer](https://www.npmjs.com/package/inquirer)
 - [Chalk](https://www.npmjs.com/package/chalk)
-- File System (fs) για αποθήκευση δεδομένων
+- File System (fs) for data storage
 
 ---
 
-## 🚀 Εγκατάσταση
+## 🚀 Installation
 
-1. Κάνε clone το repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/<το-όνομα-σου>/<το-repo-όνομα>.git
 
-2. Μπες στον φάκελο του project:
+2. Go to the project folder:
    ````bash
    cd task-manager-cli   
 
-3. Εγκατέστησε τα dependencies:
+3. Install the dependencies:
    ````bash
    npm install
 
 ---
 
-## 🖥️ Εκτέλεση
+## 🖥️ execution
 ````bash
 npm start
 ````
 ---
 
-## 📘 Χρήση
+## 📘 Use
 
-Όταν τρέχεις το πρόγραμμα, θα δεις το κύριο μενού:
+When you run the program, you will see the main menu:
 
 === ΔΙΑΧΕΙΡΙΣΗ ΕΡΓΑΣΙΩΝ ===
 ? Τι θέλεις να κάνεις;
